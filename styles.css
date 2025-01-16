@@ -1,3 +1,25 @@
+.bckgnd {
+    background-image: url("./images/homepage.png");
+    background-size: cover;        /* Cover the entire area of the element */
+    background-position: center;
+    min-height: 70vh;             /* Optional: Set a minimum height for the element */
+    width: 100%;
+}
+
+.contact-link {
+    border: 2px solid white;
+    margin: 0 1px; /* Optional: Adds some space around the link */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.contact-link:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Changes background on hover */
+    color: #000; /* Changes text color on hover */
+}
+
 .hone {
     width: 100%; 
     text-align: left; 
@@ -30,15 +52,23 @@
 
  .nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: white;
+    justify-content: center;
     padding: 10px 20px;
  }
  .nav-link {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+    margin: 0 10px;
+    text-decoration: none;
+
  }
+
+ .nav-link a {
+    padding: 0 45px;
+    text-decoration: none;
+    color: rgb(238, 238, 245);
+}
+
+img {
+    vertical-align: middle;
+    text-align: center; /* Ensures the image aligns nicely with the text */
+}
